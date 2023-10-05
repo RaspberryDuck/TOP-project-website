@@ -81,3 +81,33 @@ ul {
     gap: 10px;
     text-align: center;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/*
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+
+}
+*/
+
+.quote {
+    color: #1F2937;
+    font-size: 25px;
+    font-style: italic;
+}
+.quoted {
+    align-self: flex-end;
+}
