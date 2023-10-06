@@ -37,8 +37,8 @@ h1, p{
 
 button {
     background-color: #3882F6;
-    color: white;
     border: none;
+    color: white;
     border-radius: 4px;
     padding: 8px;
     font-weight: bold;
@@ -46,6 +46,12 @@ button {
 
 .sign-up-one {
     max-width: 100px;
+}
+
+
+.sign-up-two {
+    width: 100px;
+    border: 1px solid white;
 }
 
 a {
@@ -92,17 +98,6 @@ ul {
     gap: 10px;
 }
 
-/*
-.quote-content {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    justify-content: center;
-    align-items: center;
-
-}
-*/
-
 .quote {
     color: #1F2937;
     font-size: 25px;
@@ -110,4 +105,29 @@ ul {
 }
 .quoted {
     align-self: flex-end;
+}
+
+.call-to-action-section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-box{
+
+    border-radius: 10px;
+    width: 700px;
+    color: white;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 30px;
+    padding: 20px 80px;
+}
+
+.text-and-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
