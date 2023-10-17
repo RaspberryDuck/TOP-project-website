@@ -7,32 +7,40 @@ body {
     background-color: #F2C6C2;
     color: white;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .header {
     display: flex;
+    max-width: 800px;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 18%;
+    /* margin: 0px 18%; */
 
 }
 
 .attention-hook {
-    margin: 50px 18% 0px 18%;
+    /* margin: 50px 18% 0px 18%; */
     display: flex;
+    max-width: 800px;
     justify-content: space-between;
+    gap: 25px;
     align-items: center;
-}
-
-h1, p{
-    padding: 0px;
-    margin: 0px;
 }
 
 .text-content {
     display: flex;
     flex-direction: column;
-    max-width: 380px;
+    gap: 15px;
+}
+
+h1, p{
+    padding: 0px;
+    margin: 0px;
 }
 
 button {
@@ -51,18 +59,23 @@ button {
 
 .sign-up-two {
     width: 100px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+}
+
+.best-paintings-header {
+    color: #424242;
 }
 
 .additional-info {
@@ -77,6 +90,9 @@ ul {
 
 .content {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 90px;
 }
 
@@ -135,7 +151,7 @@ ul {
 
 
 .footer {
-    background-color: #1F2937;
+    background-color: #86A69D;
     color: white;
     height: 50px;
     display: flex;
